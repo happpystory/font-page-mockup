@@ -1,0 +1,211 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    height: 4000px;
+}
+
+#header-img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#nav { 
+    background-color: rgb(250, 229, 234);
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #111;
+}
+
+.btn:hover { 
+    border-bottom: 2px solid;
+    padding-bottom: 3px;
+}
+
+
+#main{ 
+    display: flex;
+}
+
+#left-bar { 
+    width: 75%;
+    padding:0 50px 0 50px;
+}
+#right-bar { 
+    width: 25%;
+    background-color:  rgb(250, 229, 234);
+}
+
+#article-1 { 
+    display: flex;
+}
+
+#title1 { 
+    padding:50px 0 50px 0;
+    font-size: 70px;
+    color:gray;
+}
+
+#part1 { 
+    margin-top:100px;
+    padding: 20px;
+}
+
+#part2 { 
+    padding: 20px 0 20px 0;
+}
+
+
+#article-2 {
+    display: flex;
+    padding: 40px 0 20px 0;
+}
+
+#product1 { 
+    width: 50%;
+    height: 400px;
+
+}
+
+#product2 { 
+    width: 16%
+    
+}
+
+#product2-wrapper { 
+    text-align: center;
+    width: 100%;
+}
+
+#product3 { 
+    width:100%
+}
+
+#article-3 { 
+    padding:40px 0 20px 0;
+}
+
+#article-3-text { 
+    padding:40px 0 20px 0;
+}
+
+#product-4-wrapper { 
+    text-align: center;
+}
+
+.product4 { 
+    width: 10%;
+}
+
+.product4-1 { 
+    width: 30%;
+}
+
+.product-4-label { 
+    padding-top:30px;
+}
+
+.product-4-label a{ 
+    text-decoration: none;
+    color: white;
+}
+
+.product-4-label > p { 
+    display: inline-block;
+    background-color: red;
+    font-size: 35px;
+    padding:5px 35px 5px 35px;
+}
+
+#article-4-text { 
+    padding:40px 0 20px 0;
+}
+
+#title2 { 
+    font-size: 45px;
+    padding-left: 15px;
+}
+
+#article-5 { 
+    margin-top:30px;
+    margin-left: -40px;
+}
+
+#side-img-wrapper-1 > img {
+    width: 50%;
+}
+
+#side-img-wrapper-1 { 
+    text-align: center;
+}
+
+#side-text-wrapper-1 { 
+    padding:10px;
+    border:1px solid;
+    text-align: center;
+    margin-top:10px;
+
+}
+
+#article-6 { 
+    padding: 0 10px 0 10px;
+}
+
+#article-7 > img  { 
+    width: 100%;
+}
+
+#article-7 { 
+    padding:20px;
+}
+
+#article-8 > img  { 
+    width: 100%;
+}
+
+#article-8 { 
+    margin-top:10px;
+    padding:20px;
+}
+
+#article-9 > img  { 
+    width: 100%;
+}
+
+#article-9 { 
+    margin-top:10px;
+    padding:20px;
+}
+
+#article-10 { 
+    margin-top:40px;
+    text-align: center;
+}
+
+#footer > p { 
+    text-align: center;
+    font-size: 20px;
+    padding:20px;
+}
+
+#footer-img-wrapper { 
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-img-wrapper > img { 
+     width:20%; 
+}
+
+#footer { 
+    background-color: rgb(245, 221, 224);
+}
